@@ -1,0 +1,12 @@
+#+TITLE: A blorg tutorial
+
+* mise en place
+For this delicious recipe to how to create a blog with emacs we should start
+from the beginning.
+
+** Recipe
+   - Clone and install [[https://github.com/clarete/blorg/][Blorg]].
+   - Clone and install [[https://github.com/clarete/templatel/][templatel]].
+   - Mix with love and nice stories ;)
+
+* Making your blog
