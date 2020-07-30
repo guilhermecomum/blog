@@ -4,7 +4,6 @@
 (require 'blorg)
 
 (blorg-gen
- :input-pattern "posts/.*\\.org$"
- :template "post.html"
- :template-dir "./"
+ :input-pattern "src/posts/.*\\.org$"
+ :template "src/post.html"
  :output "output/{{ slug }}/index.html")
