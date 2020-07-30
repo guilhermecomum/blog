@@ -1,0 +1,125 @@
+:root {
+  --accent: #0094ff;
+  --background: #1D1E28;
+  --color: white;
+  --border-color: rgba(255, 255, 255, .1);
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("assets/fonts/FiraCode-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("assets/fonts/FiraCode-Bold.woff") format("woff");
+}
+
+body {
+  margin: 0 15%;
+  padding: 0;
+  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  font-size: 1.3rem;
+  line-height: 1.54;
+  letter-spacing: -0.02em;
+  background-color: var(--background);
+  color: var(--color);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+  font-variant-ligatures: contextual;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  margin: 40px 0;
+}
+
+.logo_header {
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.logo_header:after {
+  content: '';
+  background: repeating-linear-gradient(90deg, var(--accent), var(--accent) 2px, transparent 0, transparent 10px);
+  display: block;
+  width: 100%;
+  right: 10px;
+}
+
+.logo_header > a {
+  flex: 0 0 auto;
+  max-width: 100%;
+  text-decoration: none;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: var(--accent);
+  color: #000;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+nav  {
+  margin: 20px 0;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li  {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  color: var(--color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color)
+}
+
+nav > ul > li > a:hover {
+  color: var(--accent)
+}
+
+.post .post-title {
+  margin-top: 40px;
+  position: relative;
+  color: var(--accent);
+  margin: 0 0 15px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  border-bottom: 3px dotted var(--accent);
+}
+
+.post .post-title a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.post .post-title:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted var(--accent);
+}
+
+.post-meta {
+  color: var(--accent)
+}

@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ post.title }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <main>
-      <section>
-        <header>
-          <h1>{{ post.title }}</h1>
-        </header>
-        <div class="content">
-          {{ post.html }}
-        </div>
-      </section>
-    </main>
-  </body>
-</html>
+{% extends "index.html" %} {% block main %}
+<div class="post">
+  <h2 class="post-title">
+    <a href="">{{ post.title }}</a>
+  </h2>
+  <div class="post-meta">
+    {{post.pub_date}} ::
+  </div>
+  <p>{{ post.html_content|safe_html }}</p>
+</div>
+{% endblock %}
