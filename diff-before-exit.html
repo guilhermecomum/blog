@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      In Between
+      
+    </title>
+    <meta name="author" content="Guilherme Guerra" />
+    <meta name="description" content="my personal blog" />
+    <meta name="keywords" content="life,tech,random" />
+    
+  <meta property="og:title" content="Diff before exit">
+  <meta property="og:url" content="http://localhost:8000/diff-before-exit.html">
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+
+    <!-- <link rel="stylesheet" href="http://localhost:8000/static/style.css" type="text/css" /> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&family=Space+Mono&display=swap" />
+    <!-- <link rel="stylesheet" href="http://localhost:8000/static/tufte.css" type="text/css" /> -->
+    
+
+  </head>
+  <body>
+    
+    
+    <header>
+      <div class="logo_header">
+        <a href="http://localhost:8000/">
+          <h1 class="logo">In between</h1>
+        </a>
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="http://localhost:8000/about.html">about</a></li>
+          <li><a href="">blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <main>
+      
+  <article class="post">
+    <h1 class="post__title">
+      Diff before exit
+    </h1>
+    <section class="post__meta">
+      
+        Jun 29, 2022
+      
+    </section>
+    <section>
+      <p>
+Have you tried to close a file and your editor asks you if you are sure you want to proceed because there are unsaved changes? But all that it gives you is Yes, No or Cancel options? I believe computers should help us in our daily tasks, and we should delegate as much as possible to that machine to help us and let our minds free to think, chill, dream and do what they can't do. So, that's why I ask myself why my text editor doesn't help understand what the differences are before I close. So that I'll be able to make better decisions with data and don't need to remember if/and what I had changed on the document.
+</p>
+
+<p>
+Fortunately, I use Emacs and after a little search I discovery that is easy to do, Thanks for the answers in <a href="https://emacs.stackexchange.com/questions/3245/kill-buffer-prompt-with-option-to-diff-the-changes/3363#3363">stack exchange</a>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(<span class="org-keyword">defun</span> <span class="org-function-name">my-kill-this-buffer</span> ()
+  (<span class="org-keyword">interactive</span>)
+  (<span class="org-keyword">catch</span> '<span class="org-constant">quit</span>
+    (<span class="org-keyword">save-window-excursion</span>
+      (<span class="org-keyword">let</span> (done)
+        (<span class="org-keyword">when</span> (<span class="org-keyword">and</span> buffer-file-name (buffer-modified-p))
+          (<span class="org-keyword">while</span> (not done)
+            (<span class="org-keyword">let</span> ((response (read-char-choice
+                             (format <span class="org-string">"Save file %s? (y, n, d, q) "</span> (buffer-file-name))
+                             '(?y ?n ?d ?q))))
+              (<span class="org-keyword">setq</span> done (<span class="org-keyword">cond</span>
+                          ((eq response ?q) (<span class="org-keyword">throw</span> '<span class="org-constant">quit</span> nil))
+                          ((eq response ?y) (save-buffer) t)
+                          ((eq response ?n) (set-buffer-modified-p nil) t)
+                          ((eq response ?d) (diff-buffer-with-file) nil))))))
+        (kill-buffer (current-buffer))))))
+</pre>
+</div>
+
+<p>
+This code snippet does the trick! Now, every time I try to close an unsaved file, Emacs will help me ask if I want to see the diff, not only Yes, No or Cancel \o/
+</p>
+
+<p>
+I have used Emacs since 2011, but recently, I started to understand and feel the power of Emacs. When I heard people saying Emacs is not only a text editor, I was always confused. I know we can read emails, use Slack, play games and a plenty of other things. Only after reading this  <a href="https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/">article</a>, I  understand and agree that “Emacs isn’t an editor, it’s a building material for you to create the best editor for yourselves.” Now, the snippet above makes a lot of sense.
+</p>
+
+<p>
+Let's understand what is happening there:
+</p>
+
+<p>
+The snippet creates a function that checks if the buffer you are currently in, was modified since its file was last read or saved and prompts you four options: quit, save, set as not modified, show the difference between current and previous state. After you choose the option, it will kill the current buffer.
+</p>
+
+<p>
+On your Emacs config you can remap your keystroke to kill buffers to call `my-kill-this-buffer` and that's the way you can change how Emacs works and create your dream editor.
+That's all folks, see you next post.
+</p>
+
+    </section>
+  </article>
+
+    </main>
+
+    <footer>
+      <p>Emacs Tales | Made with ♥ and <a href="http://emacs.love/weblorg">weblorg</a></p>
+    </footer>
+  </body>
+</html>

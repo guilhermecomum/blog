@@ -1,0 +1,14 @@
+#+Title: Minimalist Android Setup
+
+Doesn't matter which android phone I'm using, I always do the same thing after initial setup:
+- Install [[https://play.google.com/store/apps/details?id=ginlemon.flowerfree&hl=pt_BR][Smart launcher]]
+- Load my configurations
+
+I love minimalist and practical interfaces, is important to remember that is practical for *me* (I hope this post help you to find your practical way)
+There is 2 key points I really link on Smart Launcher the first one is that you are free to customize almost anything and the second one is it's automatically
+organize you apps my category and is easy to find by initial letter.
+
+This is my home screen:
+
+
+[[It's clean, it's beautiful, it's handy!
