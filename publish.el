@@ -9,7 +9,7 @@
 (require 'weblorg)
 
 (if (string= (getenv "ENV") "prod")
-    (setq weblorg-default-url "https://emacs.love/tales"))
+    (setq weblorg-default-url "https://guilhermecomum.github.io/blog/"))
 
 (weblorg-site :theme nil)
 

@@ -1,10 +1,10 @@
-#+TITLE: Diff before exit
-#+SLUG: diff-before-exit
+#+TITLE: A smart way to close files
+#+SLUG: smart-way-to-close-files
 #+DATE: <2022-06-29>
 #+OPTIONS: toc:nil num:nil
 #+OPTIONS: ^:nil
 
-Have you tried to close a file and your editor asks you if you are sure you want to proceed because there are unsaved changes? But all that it gives you is Yes, No or Cancel options? I believe computers should help us in our daily tasks, and we should delegate as much as possible to that machine to help us and let our minds free to think, chill, dream and do what they can't do. So, that's why I ask myself why my text editor doesn't help understand what the differences are before I close. So that I'll be able to make better decisions with data and don't need to remember if/and what I had changed on the document.
+Have you tried to close a file and your editor asks you if you are sure you want to proceed because there are unsaved changes? But all that it gives you is Yes, No or Cancel options? I believe computers should help us in our daily tasks, and we should delegate as much as possible, so that the machine could help us free our minds to think, chill, dream and do what they can't do. That's why I ask myself why my text editor doesn't help me to understand what the differences are before I close the file. So, that I'll be able to make better decisions with data and don't need to remember if/and what I had changed on the document.
 
 Fortunately, I use Emacs and after a little search I discovery that is easy to do, Thanks for the answers in [[https://emacs.stackexchange.com/questions/3245/kill-buffer-prompt-with-option-to-diff-the-changes/3363#3363][stack exchange]]
 
@@ -29,11 +29,12 @@ Fortunately, I use Emacs and after a little search I discovery that is easy to d
 
 This code snippet does the trick! Now, every time I try to close an unsaved file, Emacs will help me ask if I want to see the diff, not only Yes, No or Cancel \o/
 
-I have used Emacs since 2011, but recently, I started to understand and feel the power of Emacs. When I heard people saying Emacs is not only a text editor, I was always confused. I know we can read emails, use Slack, play games and a plenty of other things. Only after reading this  [[https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/][article]], I  understand and agree that “Emacs isn’t an editor, it’s a building material for you to create the best editor for yourselves.” Now, the snippet above makes a lot of sense.
+I have used Emacs since 2011, but recently, I started to understand and feel the power of Emacs. When I heard people saying Emacs is not only a text editor, I was always confused. I know we can read emails, use Slack, play games and a plenty of other things. But, only after reading this [[https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/][article]], I  understand and agree that “Emacs isn’t an editor, it’s a building material for you to create the best editor for yourselves.” Now, the snippet above makes a lot of sense.
 
 Let's understand what is happening there:
 
 The snippet creates a function that checks if the buffer you are currently in, was modified since its file was last read or saved and prompts you four options: quit, save, set as not modified, show the difference between current and previous state. After you choose the option, it will kill the current buffer.
 
 On your Emacs config you can remap your keystroke to kill buffers to call `my-kill-this-buffer` and that's the way you can change how Emacs works and create your dream editor.
+
 That's all folks, see you next post.
