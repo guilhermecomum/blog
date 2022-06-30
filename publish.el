@@ -1,6 +1,5 @@
 (load-file "~/.emacs.d/straight/repos/straight.el/bootstrap.el")
 
-(straight-use-package 'templatel)
 (straight-use-package 'htmlize)
 (straight-use-package 'weblorg)
 

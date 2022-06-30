@@ -59,6 +59,7 @@ html {
 }
 
 body {
+  font-size: 1.3em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
   line-height: 1.4;
   max-width: 980px;
@@ -836,13 +837,13 @@ dialog > header:first-child {
 dialog::-webkit-backdrop {
   background: #0000009c;
   -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 dialog::backdrop {
   background: #0000009c;
   -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 footer {
@@ -912,7 +913,7 @@ body > footer {
 }
 
 .red {
-    color: var(--cl-code-monokai-red);
+  color: var(--cl-code-monokai-red);
 }
 
 /* -- Code Blocks -- */
@@ -925,10 +926,11 @@ body > footer {
 .org-variable-name    { color: var(--cl-code-variable-name); }
 .org-comment, .org-comment-delimiter { color: var(--cl-code-comment); }
 .org-src-container    { color: var(--cl-code-foreground);
-                        background: var(--cl-code-background);
-                        border: 1px solid var(--cl-border-src);
-                        padding: 0px 15px;
-                        max-width: 100%;
-                        overflow-y: scroll;
-                        border-radius: 5px;
-                        }
+  background: var(--cl-code-background);
+  border: 1px solid var(--cl-border-src);
+  padding: 0px 15px;
+  max-width: 100%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
