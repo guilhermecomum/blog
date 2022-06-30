@@ -9,7 +9,7 @@
 (require 'weblorg)
 
 (if (string= (getenv "ENV") "prod")
-    (setq weblorg-default-url "https://guilhermecomum.github.io/blog/"))
+    (setq weblorg-default-url "https://in.comum.org/"))
 
 (weblorg-site :theme nil)
 
