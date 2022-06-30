@@ -3,18 +3,17 @@
   <head>
     {% block head %}
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-      {% block title %}{{ site_name | default("In Between") }}{% endblock %}
+      {% block title %}{{ site_name | default("In.comum") }}{% endblock %}
       {% block subtitle %}{% endblock %}
     </title>
+
     <meta name="author" content="Guilherme Guerra" />
     <meta name="description" content="my personal blog" />
     <meta name="keywords" content="life,tech,random" />
     {% block meta %}{% endblock %}
-    <!-- <link rel="stylesheet" href="{{ url_for("static", file="style.css") }}" type="text/css" /> -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&family=Space+Mono&display=swap" />
-    <!-- <link rel="stylesheet" href="{{ url_for("static", file="tufte.css") }}" type="text/css" /> -->
+    <link rel="stylesheet" href="{{ url_for("static", file="dark.css") }}" />
     {% endblock %}
 
   </head>
@@ -24,25 +23,19 @@
     <header>
       <div class="logo_header">
         <a href="{{ url_for("index") }}">
-          <h1 class="logo">In between</h1>
+          <h1 class="logo">In.comum</h1>
         </a>
       </div>
-
-      <nav>
-        <ul class="menu">
-          <li><a href="{{ url_for("page", slug="about") }}">about</a></li>
-          <li><a href="{{ url_for("index") }}">blog</a></li>
-        </ul>
-      </nav>
     </header>
     {% endblock %}
     {# Probably where most of the action will happen #}
     <main>
+      {% block intro %}{% endblock %}
       {% block main %}{% endblock %}
     </main>
 
     <footer>
-      <p>In Between | Made with ♥ and <a href="http://emacs.love/weblorg">weblorg</a></p>
+      <p>In.comum is made with <span class='red'>♥</span> and <a href="http://emacs.love/weblorg">weblorg</a></p>
     </footer>
   </body>
 </html>
