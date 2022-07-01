@@ -1,33 +1,51 @@
 {% extends "base.html" %}
 
 {% block meta %}
-  <meta property="og:title" content="{{ post.title }}">
-  <meta property="og:url" content="{{ post.url }}">
-  {% if post.description is defined %}
-    <meta property="og:description" content="{{ post.description }}">
-  {% elif project_description is defined %}
-    <meta property="og:description" content="{{ project_description }}">
-  {% endif %}
-  {% if post.image is defined %}
-    <meta property="og:image" content="{{ post.image }}">
-  {% elif project_image is defined %}
-    <meta property="og:image" content="{{ project_image }}">
-  {% endif %}
-  <meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="{{ post.title }}">
+<meta property="og:url" content="{{ post.url }}">
+{% if post.description is defined %}
+<meta property="og:description" content="{{ post.description }}">
+{% elif project_description is defined %}
+<meta property="og:description" content="{{ project_description }}">
+{% endif %}
+{% if post.image is defined %}
+<meta property="og:image" content="{{ post.image }}">
+{% elif project_image is defined %}
+<meta property="og:image" content="{{ project_image }}">
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
 {% endblock %}
 
 {% block main %}
-  <article class="post">
-    <h1 class="post__title">
-      {{ post.title }}
-    </h1>
-    <section class="post__meta">
-      {% if post.date is defined %}
-        {{ post.date|strftime("%b %d, %Y") }}
-      {% endif %}
-    </section>
-    <section>
-      {{ post.html|safe }}
-    </section>
-  </article>
+<article class="post">
+  <h1 class="post__title">
+    {{ post.title }}
+  </h1>
+  <section class="post__meta">
+    {% if post.date is defined %}
+    {{ post.date|strftime("%b %d, %Y") }}
+    {% endif %}
+  </section>
+  <section>
+    {{ post.html|safe }}
+  </section>
+</article>
+<br />
+<hr />
+<br />
+<script src="https://giscus.app/client.js"
+        data-repo="guilhermecomum/blog"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyODMzNzc4NDc="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEOQAt84CP-g8"
+        data-mapping="og:title"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="transparent_dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 {% endblock %}
