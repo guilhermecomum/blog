@@ -4,28 +4,27 @@
 #+OPTIONS: toc:nil num:nil
 #+OPTIONS: ^:nil
 
-There are a plenty of articles talking about IT industry benefits, and usually, they talk about the same things: highly paid, flexibility, unlimited options, hiring demand, etc.
+There are plenty of articles talking about IT industry benefits, and usually, they talk about the same things: highly paid, flexibility, unlimited options, hiring demand, etc.
 
-The idea here it's talk about two benefits I really appreciate, and I don't hear much about it.
+The idea here is to talk about two benefits I really appreciate, and I don't hear much about it.
 
-Unlike some areas, the inventors of a tool/field you work/use daily bases, still alive and reachable. In some areas, people still alive, but they are like superstars and are inaccessible. In other areas they are simply dead, can you imagine how many questions psychology professionals wants to ask Freud?
+Unlike some areas, the inventors of a tool/field you work/use daily bases, still alive and reachable. In some areas, people are still alive, but they are like superstars and are inaccessible. In other areas they are simply dead. Can you imagine how many questions psychology professionals want to ask Freud?
 
-
-Fortunately, I had the opportunity to attended, to talks from [[https://en.wikipedia.org/wiki/Vint_Cerf][Vincent Cerf]] and [[https://en.wikipedia.org/wiki/Tim_Berners-Lee][Tim Berners Lee]], two of the inventors of the internet. And that is not all, me and some friends take the creator of Free Software and Emacs [[https://en.wikipedia.org/wiki/Richard_Stallman][Richard Stallman]] to have lunch once, and had a nice talk about music and the life.
+Fortunately, I had the opportunity to attend talks from [[https://en.wikipedia.org/wiki/Vint_Cerf][Vincent Cerf]] and [[https://en.wikipedia.org/wiki/Tim_Berners-Lee][Tim Berners Lee]], two of the inventors of the internet. And that is not all, me and some friends take the creator of Free Software and Emacs [[https://en.wikipedia.org/wiki/Richard_Stallman][Richard Stallman]] to have lunch once, and had a nice talk about music and life.
 
 [[url_for_img:static,file=images/20012009702.jpg][Me and Maddog]]
 Me and [[https://en.wikipedia.org/wiki/Jon_Hall][Jon "Maddog" Hall]] at Campus Party 2009
 
-This is just my examples, but I know that my friends and other developers have their stories with someone they get inspired or like the work.
+These are just my examples, but I know that my friends and other developers have their stories with someone they get inspired by or like the work.
 
-So, this is my invite to encourage you if you are new and/or don't have experience like this, know that you can send email or attendee to events and with respect and good manners, approach people you get inspired by and start a good conversation about something you both like.
+So, this is my invitation to encourage you if you are new and/or don't have experiences like this. You can send emails or attendee to events and, with respect and good manners, approach people you get inspired by and start a good conversation about something you both like.
 
 Hear from Richard Stallman saying that [[https://emacs.love/tales/emacs-loves-all-its-users.html][Emacs loves all its users]], was a really great moment.
 
-The other benefit is the possibility to walk by many industries and areas and learn a little, (in some cases, not so little) about topics probably you would never learn about. I can list, some areas I worked with: gift card industry, accounting, tax writing and payroll, computer factory and diamond industry.
+The other benefit is the possibility to walk by many industries and areas and learn a little, (in some cases, not so little) about topics you would probably never learn about. I can list some areas I worked with: gift card industry, accounting, tax writing and payroll, computer factory and diamond industry.
 
-It's not a rule but a choice, I believe that learn more about the business I'm working with, help me code better and have better discussions and be able to make better questions. I took a long time to understand that is not a developer obligation, and will depend on your profile.
+It's not a rule but a choice. I believe that learning more about the business I'm working with, help me code better and have better discussions and be able to ask better questions. I took a long time to understand that is not a developer obligation, and will depend on your profile.
 
-I really like how sometimes, all this knowledge come together and help me create a new and innovation solution to complex problems we bump in this IT industry.
+I really like how sometimes, all this knowledge comes together and helps me create a new and innovative solution to complex problems we bump into in this IT industry.
 
 That's all folks, see you next post.
