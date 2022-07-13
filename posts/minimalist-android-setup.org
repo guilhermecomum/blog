@@ -1,15 +1,74 @@
-#+TITLE: Minimalist Android Setup
-#+DRAFT: t
+#+TITLE: A minimalist Android setup
+#+SLUG: a-minimalist-android-setup
+#+DATE: <2022-07-12>
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nil
 
-Doesn't matter which android phone I'm using, I always do the same thing after initial setup:
+Doesn't matter which android phone I'm using, I always do the same thing after the first boot:
 - Install [[https://play.google.com/store/apps/details?id=ginlemon.flowerfree&hl=pt_BR][Smart launcher]]
 - Load my configurations
 
-I love minimalist and practical interfaces, is important to remember that is practical for *me*, I hope this post help you to find your practical way.
-There is 2 key points I really link in Smart Launcher: the first one, is that you are free to customize almost anything and the second one is it's automatically organize you apps by category and is easy to find by initial letter.
+I love minimalist and practical interfaces (piratical for *me*, sometime can be complex for some users). Anyway, I hope this post help you find your practical and minimalist way.
+There are two key points I really like about Smart Launcher: the first one, is that you are free to customize almost anything and the second one is it's automatically organizing your apps by category, and you can easily search app through the first letter.
 
 This is my home screen:
 
+[[url_for_img:static,file=images/minimalist-android-setup/01.jpg][homescreen]]
 
 It's clean, it's beautiful, it's handy!
+
+Maybe you're asking:
+#+begin_quote
+How do you start apps? How about the apps you use daily basis?
+#+end_quote
+That's easy, gestures!
+
+I don't like to get distracted or bothered by notifications, widget, and icons. So that, I use Smart Launcher gestures.
+They call gestures, but they are a little more than just swipe right.
+
+The possibilities are:
+- Double tabs
+- Hot keys
+- Single finger
+- Double finger
+
+This mean from the home screen I'm able to open these apps:
+
+| App                      | Gestures                       |
+|--------------------------+--------------------------------|
+| Calculator               | double tapping                 |
+| Telegram                 | double click on "home" hot key |
+| WhatsApp                 | swipe up                       |
+| Firefox                  | swipe down                     |
+| Google Maps              | Dual swipe up                  |
+| Cross-multiplication App | Dual swip down                 |
+
+
+* Smart Laucher
+
+#+BEGIN_columns
+#+BEGIN_column
+[[url_for_img:static,file=images/minimalist-android-setup/02.jpg][category icons]]
+
+Auto organized apps by category with custom icons
+#+END_column
+
+#+BEGIN_column
+[[url_for_img:static,file=images/minimalist-android-setup/03.jpg][search app]]
+
+Search app by first letter
+#+END_column
+#+END_columns
+
+* Extra tips
+** Cross-multiplication App - [[https://play.google.com/store/search?q=regra%20de%203&c=apps&hl=pt_BR&gl=US][playstore]]
+Last week, my local supermarket was offering a deal, selling snacks.
+You could buy 3 packages with 30g and each one will cost R$3.45 instead of regular R$4.30, the other option was the bigger package with 180g R$17.65.
+What is the best deal?
+
+Cases like this cross-multiplication app is pretty handy.
+
+** Random wallpapers - [[https://play.google.com/store/apps/details?id=com.feresr.walpy&hl=en&gl=US][playstore]]
+I like beautiful, random and perfect fit wallpapers.
+To no waste time choosing and don't get tired of same wallpaper every day, I use [[https://play.google.com/store/apps/details?id=com.feresr.walpy&hl=en&gl=US][Walpy]], to do the job for me. Every other day, I get a awesome new wallpaper.
 
