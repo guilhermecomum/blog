@@ -1,5 +1,5 @@
 #+TITLE: Tips for successful meetings
-#+SLUG: high-performance-developers-are-not-enough
+#+SLUG: tips-for-successful-meetings
 #+DATE: <2022-10-17>
 #+OPTIONS: toc:nil num:nil
 #+OPTIONS: ^:nim
