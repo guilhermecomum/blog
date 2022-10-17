@@ -1,0 +1,64 @@
+1. Define meeting agenda, previously, async
+2. Set a time box
+3. Do check-in
+4. Actionables
+
+* References
+- https://sloanreview.mit.edu/article/the-surprising-science-behind-successful-remote-meetings/
+* Meeting Agenda
+- Define and send the meeting agenda or topic in the invite.
+- No agenda, no meeting. This is the easiest way to kill a meeting.
+- Build an agenda is important but is not engouth.
+- Is important to take care to stay in the topic. Beware when the meeting starts go
+  to a off-topic.
+* Check-in
+- Event computer do a hand-shake
+- Is important to understand how attendees are and what is the expectations about the meeting
+- Some check-ings techniques helps bring everyone close to the same tune.
+* Timebox
+- Respect the timebox
+- Start on time, finish on time
+- Few minutes before the end, make everyone aware time is ending
+- Check if everyone is available for more few minutes and respect this timebox
+* Actionable
+- Take note and the responsables for the actionable
+
+
+It's take time. Remember if this is not you workplace culture, it's take time to create a new one.
+Be the meeting keeper and help to find your team sustainable and productive way to do meetings.
+
+* Meeting Agenda
+It's the killer way to handle unnecessary meetings. No agenda, no meeting, simple as that.
+Sometime a client or a project want's to have recurring meetings, but a good way to handle those situations is before the meeting ask what is the agenda and just cancel if there is nothing. Everyone can keep working where feels better.
+
+If a meeting is necessary and you have a agenda, a good tip is send the agenda  with the invite and give a little context, this will help people get prepared to the meeting and even bring the right people.
+
+Agenda is important but is not enough, after send the agenda, present to attendees and ask if someone wants to add something, is important to avoid off-topic and helps everyone to stay on track.
+
+
+* Check-in
+I had more than one boss, that wants to skip greetings and checking and I ways use as argument, that even computers do a [[https://simple.wikipedia.org/wiki/Handshaking][handshake]] before start a conversation.
+
+#+begin_quote
+Handshaking is required in order to allow both the computer and device to send protocols to each other. During a handshake, the two devices make sure that they know certain connection requirements of each other. For instance, they will need to find out a suitable bit rate and latency for each other
+#+end_quote
+
+A free interpretation/translation to human behavior:
+#+begin_quote
+During a check-in meeting attendees can make sure that they be aware of certain conditions (happy, busy, excited) of each other. For instance, they can think what is the best tone and topics to use and/or avoid.
+#+end_quote
+
+In other words check-in can help you know the expectations and find the right tone for the meeting.
+
+
+* Timebox
+It's a pleasure to have productive meetings that's start on time and finish on time. It's a win win situation.
+If this is not common for you, don't freak out, it's not easy but it's possible to get there.
+
+
+- Respect the timebox
+- Start on time, finish on time
+- Few minutes before the end, make everyone aware time is ending
+- Check if everyone is available for more few minutes and respect this timebox
+* Actionable
+- Take note and the responsables for the actionable

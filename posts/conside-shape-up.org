@@ -1,0 +1,14 @@
+#+TITLE: Why you should consider shape up in your next project
+#+SLUG: consider-shape-up
+#+DATE: <2022-09-13>
+#+DRAFT: t
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nim
+
+
+Previsibilidade
+Foco no que importa escopo
+Não faz o dobro na metade do tempo, mas faz o que importa (entraga valor) no tempo desejado.
+Apetite vs Estimativas
+
+

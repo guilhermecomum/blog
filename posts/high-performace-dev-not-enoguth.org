@@ -1,0 +1,39 @@
+#+TITLE: High performance developers are not enough
+#+SLUG: high-performance-developers-are-not-enough
+#+DATE: <2022-07-12>
+#+DRAFT: t
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nim
+
+
+
+
+As a Client CTO at Seasoned, I receive a lot emails offering to hire squads and companies that claim to have the best professional in the market and available to help boost the development.
+
+This post is not a complain about those companies but a reflection about the software development production chain. Doesn't matter how the work evolved thought the years the industrial mindset is internalized in our society.
+
+Come to thing of it software development production chain this starts, how people buy software. It's common companies buy software, search supplier and choose the cheapest, like you buy pens or toilet paper for you company. Although software are the opposite of milk and other goods, the more software you make, the more expensive it gets.
+
+Sometimes hire a high performance team, it's like buy an Ferrari to drive in city constant busy traffic and a lot of holes in the street.
+
+    Problem:
+    Value Statement:
+    How We Do It:
+    Proof Points:
+    Customer Stories:
+    Engaging Question:
+
+* Skeleton
+- Hign Performance team is not engouth
+-
+
+* Times de auta performace precisam de processos de auta performace
+
+* Times de auta performace idealmente não deveriam ser utilzados para atingir prazos malucos e metas absurdas.
+
+* Já pensou ao inves de contrar um time ninja, você dedicar um tempo entendo o apetite que você tem e onde você quer chegar?
+
+* Uma das coisas que mudou minha carreira foi pergutar para meu chefe qual a prioridade do que havia sido pedido e como aquilo impactava as outras tarefas que haviam sido solicitadas.
+
+*
+

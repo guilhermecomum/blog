@@ -1,0 +1,52 @@
+#+TITLE: Tips for successful meetings
+#+SLUG: high-performance-developers-are-not-enough
+#+DATE: <2022-10-17>
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nim
+
+
+[[url_for_img:static,file=images/better-meetings/meeting-email.png][meme: woman crying, "Moment you realize that meeting could have been an email"]]
+
+I don't remember the last meeting I participated in, that could have been an email, fortunately I can say this is not part of my life anymore. Having successful meetings, as many things in life, is an exercise, you need training to be good at it, until you create the habit and culture.
+
+To help you create your own path and culture, I'll share what helps me, on a daily basis, to have successful meetings.
+
+* Meeting Agenda
+It's the killer way to handle unnecessary meetings. No agenda, no meeting, simple as that.
+Sometimes a client or a project requires having recurring meetings, but a good way to handle those situations is, before the meeting, ask what is the agenda and just cancel if there is nothing. No one needs to interrupt what they were doing before.
+
+If a meeting is necessary, and you have an agenda, send the agenda with the invite and give a little context. This will help people get prepared for the meeting and even bring the right people.
+
+Agenda is important, but is not enough. After sending the agenda, present to attendees and ask if someone wants to add something, it is important to avoid off-topic and help everyone to stay on track.
+
+
+* Check-in
+I had more than one boss who wanted to skip greetings and check-in and I ways used as argument, that even computers do a [[https://simple.wikipedia.org/wiki/Handshaking][handshake]] before starting a conversation.
+
+#+begin_quote
+Handshaking is required in order to allow both the computer and device to send protocols to each other. During a handshake, the two devices make sure that they know certain connection requirements of each other. For instance, they will need to find out a suitable bit rate and latency for each other
+#+end_quote
+
+A free interpretation/translation to humans:
+#+begin_quote
+During a check-in, attendees can make sure that they are aware of certain conditions of each other. For instance, they can realize what is the best tone, topics and what they should say and/or avoid.
+#+end_quote
+
+In other words, check-in can help you know what the attendee's expectations are and understand the right tone for the meeting, the do's and don'ts.
+
+* Time box
+It's a pleasure to have productive meetings that start on time and finish on time. It's a win-win situation. If this is not common for you, don't freak out, it's not easy, but it's possible to get there.
+
+- The first rule is taking care of the time, if this is hard for you, for any reason, ask for help.
+- Be punctual, start on time and finish on time.
+- A Few minutes before the end, make everyone aware, the time is ending and start leading the meeting to an ending. If the discussion/work is being productive, check with everyone if they have extra time and respect this new time box.
+* Actionable
+As I said previously, if you are not able to take notes and do the actions, ask for help from someone to keep a record of the agreements that appear during the meeting.
+
+At the end, if there is time, review the actions, who is responsible for them and deadlines. Otherwise, send through email.
+
+* Extra tip: Asynchronous communication
+It's a challenge in this modern and fast world, but it's necessary. Learn when and how to communicate async it's another skill and require another post.
+
+
+
